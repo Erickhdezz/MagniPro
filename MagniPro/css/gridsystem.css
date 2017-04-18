@@ -1,0 +1,691 @@
+/*======================= CONFIGURACIONES GENERALES ========================= */
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:focus {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  height: auto;
+  margin: auto;
+  width: 100%;
+  clear: both;
+}
+
+.container-complete {
+  position: relative;
+  height: auto;
+  margin: 0;
+  width: 100%;
+  clear: both;
+}
+
+.row {
+  position: relative;
+  height: auto;
+  margin: auto;
+  width: 100%;
+  clear: both;
+}
+
+/*======================= GRID ========================= */
+/*=========== PC ============ */
+/*=========== PC ============ */
+@media (min-width: 1200px) {
+  .pc-12 {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+  .pc-11 {
+    position: relative;
+    float: left;
+    width: 91.66667%;
+    height: auto;
+  }
+  .pc-10 {
+    position: relative;
+    float: left;
+    width: 83.33333%;
+    height: auto;
+  }
+  .pc-9 {
+    position: relative;
+    float: left;
+    width: 75%;
+    height: auto;
+  }
+  .pc-8 {
+    position: relative;
+    float: left;
+    width: 66.66667%;
+    height: auto;
+  }
+  .pc-7 {
+    position: relative;
+    float: left;
+    width: 58.33333%;
+    height: auto;
+  }
+  .pc-6 {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: auto;
+  }
+  .pc-5 {
+    position: relative;
+    float: left;
+    width: 41.66667%;
+    height: auto;
+  }
+  .pc-4 {
+    position: relative;
+    float: left;
+    width: 33.33333%;
+    height: auto;
+  }
+  .pc-3 {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: auto;
+  }
+  .pc-2 {
+    position: relative;
+    float: left;
+    width: 16.66667%;
+    height: auto;
+  }
+  .pc-1 {
+    position: relative;
+    float: left;
+    width: 8.33333%;
+    height: auto;
+  }
+  .pc-hidden {
+    display: none;
+  }
+  /*======================= ESPACIOS EN PC ========================= */
+  .pc-12-out {
+    float: left;
+    margin-left: 100%;
+    height: auto;
+  }
+  .pc-11-out {
+    float: left;
+    margin-left: 91.66667%;
+    height: auto;
+  }
+  .pc-10-out {
+    float: left;
+    margin-left: 83.33333%;
+    height: auto;
+  }
+  .pc-9-out {
+    float: left;
+    margin-left: 75%;
+    height: auto;
+  }
+  .pc-8-out {
+    float: left;
+    margin-left: 66.66667%;
+    height: auto;
+  }
+  .pc-7-out {
+    float: left;
+    margin-left: 58.33333%;
+    height: auto;
+  }
+  .pc-6-out {
+    float: left;
+    margin-left: 50%;
+    height: auto;
+  }
+  .pc-5-out {
+    float: left;
+    margin-left: 41.66667%;
+    height: auto;
+  }
+  .pc-4-out {
+    float: left;
+    margin-left: 33.33333%;
+    height: auto;
+  }
+  .pc-3-out {
+    float: left;
+    margin-left: 25%;
+    height: auto;
+  }
+  .pc-2-out {
+    float: left;
+    margin-left: 16.66667%;
+    height: auto;
+  }
+  .pc-1-out {
+    float: left;
+    margin-left: 8.33333%;
+    height: auto;
+  }
+}
+
+/*=========== LAP ============ */
+/*=========== LAP ============ */
+@media (max-width: 1199px) and (min-width: 992px) {
+  .lap-12 {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+  .lap-11 {
+    position: relative;
+    float: left;
+    width: 91.66667%;
+    height: auto;
+  }
+  .lap-10 {
+    position: relative;
+    float: left;
+    width: 83.33333%;
+    height: auto;
+  }
+  .lap-9 {
+    position: relative;
+    float: left;
+    width: 75%;
+    height: auto;
+  }
+  .lap-8 {
+    position: relative;
+    float: left;
+    width: 66.66667%;
+    height: auto;
+  }
+  .lap-7 {
+    position: relative;
+    float: left;
+    width: 58.33333%;
+    height: auto;
+  }
+  .lap-6 {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: auto;
+  }
+  .lap-5 {
+    position: relative;
+    float: left;
+    width: 41.66667%;
+    height: auto;
+  }
+  .lap-4 {
+    position: relative;
+    float: left;
+    width: 33.33333%;
+    height: auto;
+  }
+  .lap-3 {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: auto;
+  }
+  .lap-2 {
+    position: relative;
+    float: left;
+    width: 16.66667%;
+    height: auto;
+  }
+  .lap-1 {
+    position: relative;
+    float: left;
+    width: 8.33333%;
+    height: auto;
+  }
+  .lap-hidden {
+    display: none;
+  }
+  /*======================= ESPACIOS EN LAP ========================= */
+  .lap-12-out {
+    float: left;
+    margin-left: 100%;
+    height: auto;
+  }
+  .lap-11-out {
+    float: left;
+    margin-left: 91.66667%;
+    height: auto;
+  }
+  .lap-10-out {
+    float: left;
+    margin-left: 83.33333%;
+    height: auto;
+  }
+  .lap-9-out {
+    float: left;
+    margin-left: 75%;
+    height: auto;
+  }
+  .lap-8-out {
+    float: left;
+    margin-left: 66.66667%;
+    height: auto;
+  }
+  .lap-7-out {
+    float: left;
+    margin-left: 58.33333%;
+    height: auto;
+  }
+  .lap-6-out {
+    float: left;
+    margin-left: 50%;
+    height: auto;
+  }
+  .lap-5-out {
+    float: left;
+    margin-left: 41.66667%;
+    height: auto;
+  }
+  .lap-4-out {
+    float: left;
+    margin-left: 33.33333%;
+    height: auto;
+  }
+  .lap-3-out {
+    float: left;
+    margin-left: 25%;
+    height: auto;
+  }
+  .lap-2-out {
+    float: left;
+    margin-left: 16.66667%;
+    height: auto;
+  }
+  .lap-1-out {
+    float: left;
+    margin-left: 8.33333%;
+    height: auto;
+  }
+}
+
+/*=========== TAB ============ */
+/*=========== TAB ============ */
+@media (max-width: 991px) and (min-width: 768px) {
+  .tab-12 {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+  .tab-11 {
+    position: relative;
+    float: left;
+    width: 91.66667%;
+    height: auto;
+  }
+  .tab-10 {
+    position: relative;
+    float: left;
+    width: 83.33333%;
+    height: auto;
+  }
+  .tab-9 {
+    position: relative;
+    float: left;
+    width: 75%;
+    height: auto;
+  }
+  .tab-8 {
+    position: relative;
+    float: left;
+    width: 66.66667%;
+    height: auto;
+  }
+  .tab-7 {
+    position: relative;
+    float: left;
+    width: 58.33333%;
+    height: auto;
+  }
+  .tab-6 {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: auto;
+  }
+  .tab-5 {
+    position: relative;
+    float: left;
+    width: 41.66667%;
+    height: auto;
+  }
+  .tab-4 {
+    position: relative;
+    float: left;
+    width: 33.33333%;
+    height: auto;
+  }
+  .tab-3 {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: auto;
+  }
+  .tab-2 {
+    position: relative;
+    float: left;
+    width: 16.66667%;
+    height: auto;
+  }
+  .tab-1 {
+    position: relative;
+    float: left;
+    width: 8.33333%;
+    height: auto;
+  }
+  .tab-hidden {
+    display: none;
+  }
+  /*======================= ESPACIOS EN TABLET ======================== */
+  .tab-12-out {
+    float: left;
+    margin-left: 100%;
+    height: auto;
+  }
+  .tab-11-out {
+    float: left;
+    margin-left: 91.66667%;
+    height: auto;
+  }
+  .tab-10-out {
+    float: left;
+    margin-left: 83.33333%;
+    height: auto;
+  }
+  .tab-9-out {
+    float: left;
+    margin-left: 75%;
+    height: auto;
+  }
+  .tab-8-out {
+    float: left;
+    margin-left: 66.66667%;
+    height: auto;
+  }
+  .tab-7-out {
+    float: left;
+    margin-left: 58.33333%;
+    height: auto;
+  }
+  .tab-6-out {
+    float: left;
+    margin-left: 50%;
+    height: auto;
+  }
+  .tab-5-out {
+    float: left;
+    margin-left: 41.66667%;
+    height: auto;
+  }
+  .tab-4-out {
+    float: left;
+    margin-left: 33.33333%;
+    height: auto;
+  }
+  .tab-3-out {
+    float: left;
+    margin-left: 25%;
+    height: auto;
+  }
+  .tab-2-out {
+    float: left;
+    margin-left: 16.66667%;
+    height: auto;
+  }
+  .tab-1-out {
+    float: left;
+    margin-left: 8.33333%;
+    height: auto;
+  }
+}
+
+/*=========== PHN ============ */
+/*=========== PHN ============ */
+@media (max-width: 767px) {
+  .phn-12 {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+  .phn-11 {
+    position: relative;
+    float: left;
+    width: 91.66667%;
+    height: auto;
+  }
+  .phn-10 {
+    position: relative;
+    float: left;
+    width: 83.33333%;
+    height: auto;
+  }
+  .phn-9 {
+    position: relative;
+    float: left;
+    width: 75%;
+    height: auto;
+  }
+  .phn-8 {
+    position: relative;
+    float: left;
+    width: 66.66667%;
+    height: auto;
+  }
+  .phn-7 {
+    position: relative;
+    float: left;
+    width: 58.33333%;
+    height: auto;
+  }
+  .phn-6 {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: auto;
+  }
+  .phn-5 {
+    position: relative;
+    float: left;
+    width: 41.66667%;
+    height: auto;
+  }
+  .phn-4 {
+    position: relative;
+    float: left;
+    width: 33.33333%;
+    height: auto;
+  }
+  .phn-3 {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: auto;
+  }
+  .phn-2 {
+    position: relative;
+    float: left;
+    width: 16.66667%;
+    height: auto;
+  }
+  .phn-1 {
+    position: relative;
+    float: left;
+    width: 8.33333%;
+    height: auto;
+  }
+  .phn-hidden {
+    display: none;
+  }
+  /*======================= ESPACIOS EN PHONES ========================= */
+  .phn-12-out {
+    float: left;
+    margin-left: 100%;
+    height: auto;
+  }
+  .phn-11-out {
+    float: left;
+    margin-left: 91.66667%;
+    height: auto;
+  }
+  .phn-10-out {
+    float: left;
+    margin-left: 83.33333%;
+    height: auto;
+  }
+  .phn-9-out {
+    float: left;
+    margin-left: 75%;
+    height: auto;
+  }
+  .phn-8-out {
+    float: left;
+    margin-left: 66.66667%;
+    height: auto;
+  }
+  .phn-7-out {
+    float: left;
+    margin-left: 58.33333%;
+    height: auto;
+  }
+  .phn-6-out {
+    float: left;
+    margin-left: 50%;
+    height: auto;
+  }
+  .phn-5-out {
+    float: left;
+    margin-left: 41.66667%;
+    height: auto;
+  }
+  .phn-4-out {
+    float: left;
+    margin-left: 33.33333%;
+    height: auto;
+  }
+  .phn-3-out {
+    float: left;
+    margin-left: 25%;
+    height: auto;
+  }
+  .phn-2-out {
+    float: left;
+    margin-left: 16.66667%;
+    height: auto;
+  }
+  .phn-1-out {
+    float: left;
+    margin-left: 8.33333%;
+    height: auto;
+  }
+}
+
+/*======================= IMAGENES RESPONSIVAS ========================= */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*======================= SLIDER AUTOMATICO  ========================= */
+.auto-slider {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.auto-slider ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  width: 400%;
+  -webkit-animation: autocambio 30s infinite alternate;
+  animation: autocambio 30s infinite alternate;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+
+.auto-slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.auto-slider img {
+  width: 100%;
+}
+
+@-webkit-keyframes autocambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -200%;
+  }
+  80% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+@keyframes autocambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -200%;
+  }
+  80% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+/*# sourceMappingURL=gridsystem.css.map */

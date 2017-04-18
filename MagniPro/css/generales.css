@@ -1,0 +1,64 @@
+#c_c{
+    font-family: Revalia;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 12%;
+    color: white;
+}
+#logo_repo a{
+    max-width: 250px;
+    max-height: 150px;
+    
+}
+
+#logo_repo img{
+    max-width: 100px;
+    height: 40px;
+    background-color: rgba(251, 188, 5, 0.6);
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    
+}
+
+.nav .navbar-nav{
+    width: 80%;
+}
+
+
+.navbar, .navbar-inverse{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border: none;
+}
+
+#boton_descarga{
+    margin: auto;
+    background-color: rgba(231,82,37, 0.6);
+    max-width: 300px;
+    text-align: center;
+    font-family: "Oswald";
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+
+.navbar, .navbar-inverse li{
+    color: white;
+    font-family: "Oswald";
+}
+
+
+video {
+    background-size: cover;
+    bottom: 0;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    right: 0;
+    width: auto;
+    z-index: -100;
+}
